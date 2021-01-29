@@ -1,0 +1,146 @@
+.top-header{
+background-color: #f0f2f4;
+padding: 5px 0;
+}
+.top-header ul{
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.top-header ul li{
+font-size: 16px;
+color: #424242;
+}
+
+.top-header ul li i{
+margin-right: 10px;
+}
+
+.top-header ul li a{
+font-size: 22px;
+color: #1287bf;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-item .active{
+    color: #dd2a24;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #dd2a24;
+  
+}
+.btn-custom{
+    background-color: #dd2a24;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+.hg{
+    align-items: center;
+    min-height: 80vh;
+
+}
+.banner h1{
+color: #fff;
+}
+.banner h4{
+color: #fff;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.banner .btn-warning{
+font-weight: 700;
+text-transform: uppercase;
+background: #f8cd53;
+padding: 10px 25px;
+color: #fff;
+}
+.banner .btn-warning:hover{
+    background-color: transparent;
+    border: 1px solid #a1a1a1;
+    color: #fff;
+}
+ .heading{
+    position: relative;
+ }
+ .heading::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    width: 30px;
+    height: 5px;
+    background-color:#424242;
+    transition: .4s all ease-in-out;
+
+ }
+ .heading::after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 50%;
+    width: 30px;
+    height: 5px;
+    background-color:#424242 ;
+    transition: .4s all ease-in-out;
+ }
+
+.haeding h1{
+    color: #424242;
+}
+.haeding h4{
+    color: #686868;
+    font-weight: 100;
+
+}
+
+.Approch{
+    background-color: #f3f3f3;
+}
+.bg{
+    background-color: #fff;
+}
+.step, .step2, .step3, .step4{
+height: 100px;
+width: 100px;
+background: red;
+text-align: center;
+color: #fff;
+position: absolute;
+top: 50%;
+right: -45px;
+transform: translateY(-50%);
+border-radius: 3px;
+border: 2px solid #fff;
+}
+.step h1{
+font-size: 40px;
+font-weight: 900;
+margin: 0;
+padding-top: 10px;
+}
+.step p{
+margin: 0;
+text-transform: capitalize;
+font-weight: 600;
+}
+.relative{
+    position: relative;
+}
+.step2, .step4{
+  left: -45px;  
+}
+
